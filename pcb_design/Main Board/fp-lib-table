@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name MPR121QR2)(type KiCad)(uri /Users/admin/Desktop/MPR121QR2)(options "")(descr ""))
+  (lib (name logo)(type KiCad)(uri "/Users/d0/Dropbox/Picorder 2/Hardware/REV 2 BOARDS/Sensor Board/logo.pretty")(options "")(descr ""))
+)

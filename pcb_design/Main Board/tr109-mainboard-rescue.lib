@@ -1,0 +1,49 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# CAP1208-Sensor_Touch
+#
+DEF CAP1208-Sensor_Touch U 0 40 Y Y 1 F N
+F0 "U" 450 -450 50 H V C CNN
+F1 "CAP1208-Sensor_Touch" 400 650 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -450 450 450 -350 1 1 10 f
+X CS2 1 -600 250 150 R 50 50 1 1 P
+X CS7 10 -600 -250 150 R 50 50 1 1 P
+X CS6 11 -600 -150 150 R 50 50 1 1 P
+X CS5 12 -600 -50 150 R 50 50 1 1 P
+X CS4 13 -600 50 150 R 50 50 1 1 P
+X CS3 14 -600 150 150 R 50 50 1 1 P
+X CS1 2 -600 350 150 R 50 50 1 1 P
+X ALERT# 3 600 50 150 L 50 50 1 1 C
+X SMDATA 4 600 250 150 L 50 50 1 1 B
+X SMCLK 5 600 350 150 L 50 50 1 1 I
+X VDD 7 0 600 150 D 50 50 1 1 W
+X GND 8 0 -500 150 U 50 50 1 1 W
+X CS8 9 600 -250 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_01x02_Female-Connector-oshpark-2layer-rescue
+#
+DEF Conn_01x02_Female-Connector-oshpark-2layer-rescue J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Conn_01x02_Female-Connector-oshpark-2layer-rescue" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
+A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
+P 2 1 1 6 -50 -100 -20 -100 N
+P 2 1 1 6 -50 0 -20 0 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

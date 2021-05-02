@@ -1,0 +1,68 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# AMG8833-dk_Temperature-Sensors-Analog-and-Digital-Output-Sensor-Pallette-rescue-oshpark-2layer-rescue
+#
+DEF AMG8833-dk_Temperature-Sensors-Analog-and-Digital-Output-Sensor-Pallette-rescue-oshpark-2layer-rescue U 0 40 Y Y 1 F N
+F0 "U" -300 700 60 H V C CNN
+F1 "AMG8833-dk_Temperature-Sensors-Analog-and-Digital-Output-Sensor-Pallette-rescue-oshpark-2layer-rescue" 100 -200 60 H V L CNN
+F2 "digikey-footprints:SMD-14_Grideye" 200 200 60 H I L CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Sensors%20PDFs/Grid-EYE_AMG88.pdf" 200 300 60 H I L CNN
+F4 "P19002CT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "AMG8833" 200 500 60 H I L CNN "MPN"
+F6 "Sensors, Transducers" 200 600 60 H I L CNN "Category"
+F7 "Temperature Sensors - Analog and Digital Output" 200 700 60 H I L CNN "Family"
+F8 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Sensors%20PDFs/Grid-EYE_AMG88.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/panasonic-electronic-components/AMG8833/P19002CT-ND/5825306" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "SENSOR DGTL 14SMD MODULE" 200 1000 60 H I L CNN "Description"
+F11 "Panasonic Electronic Components" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S 400 600 -400 -100 0 1 0 f
+X NC 1 500 400 100 L 50 50 1 1 N
+X AVDD-PC 10 100 700 100 D 50 50 1 1 W
+X NC 11 500 100 100 L 50 50 1 1 N
+X DVDD-PC 12 200 700 100 D 50 50 1 1 W
+X VPP 13 0 700 100 D 50 50 1 1 W
+X NC 14 500 0 100 L 50 50 1 1 N
+X SDA 2 -500 500 100 R 50 50 1 1 B
+X SCL 3 -500 400 100 R 50 50 1 1 B
+X INT 4 -500 300 100 R 50 50 1 1 B
+X AD-SELECT 5 -500 200 100 R 50 50 1 1 I
+X GND 6 0 -200 100 U 50 50 1 1 W
+X NC 7 500 300 100 L 50 50 1 1 N
+X NC 8 500 200 100 L 50 50 1 1 N
+X VDD 9 -100 700 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# BME680-dk_Specialized-Sensors-Sensor-Pallette-rescue-oshpark-2layer-rescue
+#
+DEF BME680-dk_Specialized-Sensors-Sensor-Pallette-rescue-oshpark-2layer-rescue U 0 40 Y Y 1 F N
+F0 "U" -300 350 60 H V L CNN
+F1 "BME680-dk_Specialized-Sensors-Sensor-Pallette-rescue-oshpark-2layer-rescue" 150 -250 50 H V L CNN
+F2 "digikey-footprints:BME680" 200 200 60 H I L CNN
+F3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf" 200 300 60 H I L CNN
+F4 "828-1077-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "BME680" 200 500 60 H I L CNN "MPN"
+F6 "Sensors, Transducers" 200 600 60 H I L CNN "Category"
+F7 "Specialized Sensors" 200 700 60 H I L CNN "Family"
+F8 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/bosch-sensortec/BME680/828-1077-1-ND/7401321" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "SENSOR RH PRESSURE TEMP VOC" 200 1000 60 H I L CNN "Description"
+F11 "Bosch Sensortec" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -300 300 400 -200 0 1 0 f
+X GND 1 0 -300 100 U 50 50 1 1 W
+X CSB 2 -400 100 100 R 50 50 1 1 I
+X SDI 3 500 100 100 L 50 50 1 1 B
+X SCK 4 -400 0 100 R 50 50 1 1 I
+X SDO 5 500 0 100 L 50 50 1 1 B
+X Vddio 6 100 400 100 D 50 50 1 1 W
+X GND 7 100 -300 100 U 50 50 1 1 W
+X VDD 8 0 400 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library
