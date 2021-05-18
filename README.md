@@ -18,4 +18,4 @@ While it is not required, if you make a picorder using this repository I would a
 
 For a more regularly updated description of this project please visit the [wiki](https://squaredwave.com/wiki/index.php?title=Picorder_2)
 
-Originally designed by Chris Barrett in 2021. I consider this project to be "Open Hardware", and as such is free to use, modify distribute or sell. It comes with no promise of support or warranty. For more up to date information please visit my [Wiki](https://squaredwave.com/wiki/index.php?title=PicorderOS)
+Originally designed by Chris Barrett in 2021. I consider this project to be "Open Hardware", and as such is free to use, modify distribute or sell. It comes with no promise of support or warranty.
