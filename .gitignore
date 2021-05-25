@@ -69,3 +69,11 @@ Temporary Items
 .apdisk
 
 # End of https://www.toptal.com/developers/gitignore/api/kicad,macos
+
+
+# Blender
+
+*.pyc
+*.blend[1-9]
+__pycache__
+/dist/

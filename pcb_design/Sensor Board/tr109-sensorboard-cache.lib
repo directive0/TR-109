@@ -8,7 +8,7 @@ F0 "U" -300 550 50 H V C CNN
 F1 "74xx_74HC595" -300 -650 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-ALIAS 74LS595 74HCT595 74AHC595 74AHCT595
+ALIAS 74LS595 74HCT595
 $FPLIST
  DIP*W7.62mm*
  SOIC*3.9x9.9mm*P1.27mm*
@@ -177,9 +177,6 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  SolderJumper*
- Jumper*
- TestPoint*2Pads*
- TestPoint*Bridge*
 $ENDFPLIST
 DRAW
 A 0 -26 125 1426 373 0 1 0 N -98 50 99 50
@@ -203,9 +200,9 @@ $FPLIST
  LED_THT:*
 $ENDFPLIST
 DRAW
-P 2 0 1 10 -50 -50 -50 50 N
+P 2 0 1 8 -50 -50 -50 50 N
 P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
 P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
 P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
 X K 1 -150 0 100 R 50 50 1 1 P
@@ -227,39 +224,6 @@ DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# dk_Magnetic-Sensors-Linear-Compass-ICs_LIS3MDLTR
-#
-DEF dk_Magnetic-Sensors-Linear-Compass-ICs_LIS3MDLTR U 0 40 Y Y 1 F N
-F0 "U" -350 450 60 H V C CNN
-F1 "dk_Magnetic-Sensors-Linear-Compass-ICs_LIS3MDLTR" 200 -600 60 H V L CNN
-F2 "digikey-footprints:VFLGA-12_2x2mm" 200 200 60 H I L CNN
-F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/54/2a/85/76/e3/97/42/18/DM00075867.pdf/files/DM00075867.pdf/jcr:content/translations/en.DM00075867.pdf" 200 300 60 H I L CNN
-F4 "497-13892-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "LIS3MDLTR" 200 500 60 H I L CNN "MPN"
-F6 "Sensors, Transducers" 200 600 60 H I L CNN "Category"
-F7 "Magnetic Sensors - Linear, Compass (ICs)" 200 700 60 H I L CNN "Family"
-F8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/54/2a/85/76/e3/97/42/18/DM00075867.pdf/files/DM00075867.pdf/jcr:content/translations/en.DM00075867.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/stmicroelectronics/LIS3MDLTR/497-13892-1-ND/4309737" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "SENSOR MR I2C/SPI 12LGA" 200 1000 60 H I L CNN "Description"
-F11 "STMicroelectronics" 200 1100 60 H I L CNN "Manufacturer"
-F12 "Active" 200 1200 60 H I L CNN "Status"
-DRAW
-S -400 400 400 -500 0 1 0 f
-X SCL/SPC 1 -500 100 100 R 50 50 1 1 I
-X CS 10 -500 0 100 R 50 50 1 1 I
-X SDA/SDI/SDO 11 -500 -200 100 R 50 50 1 1 B
-X RES 12 0 -600 100 U 50 50 1 1 W
-X RES 2 100 -600 100 U 50 50 1 1 W
-X GND 3 -100 -600 100 U 50 50 1 1 W
-X C1 4 -500 -100 100 R 50 50 1 1 P
-X VDD 5 0 500 100 D 50 50 1 1 W
-X VDD_IO 6 100 500 100 D 50 50 1 1 W
-X INT 7 500 100 100 L 50 50 1 1 O
-X DRDY 8 500 0 100 L 50 50 1 1 O
-X SDO/SA1 9 500 -100 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #

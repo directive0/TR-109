@@ -512,10 +512,10 @@ GND
 Text GLabel 4200 1200 1    50   Input ~ 0
 3.3V
 $Comp
-L dk_Magnetic-Sensors-Linear-Compass-ICs:LIS3MDLTR U2
+L dk_Magnetic-Sensors-Linear-Compass-ICs:LIS3MDLTR U4
 U 1 1 5F5C68D1
 P 4200 1700
-F 0 "U2" H 3550 2400 60  0000 C CNN
+F 0 "U4" H 3550 2400 60  0000 C CNN
 F 1 "LIS3MDLTR" H 3700 2300 60  0000 C CNN
 F 2 "digikey-footprints:VFLGA-12_2x2mm" H 4400 1900 60  0001 L CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/54/2a/85/76/e3/97/42/18/DM00075867.pdf/files/DM00075867.pdf/jcr:content/translations/en.DM00075867.pdf" H 4400 2000 60  0001 L CNN

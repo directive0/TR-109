@@ -207,7 +207,7 @@ LED3
 Text GLabel 2600 6000 2    50   Input ~ 0
 LED4
 $Comp
-L Sensor_Touch:CAP1208 U1
+L tr109-mainboard-rescue:CAP1208-Sensor_Touch U1
 U 1 1 5F245663
 P 4100 5800
 F 0 "U1" H 3700 6600 50  0000 C CNN
@@ -237,7 +237,7 @@ Text GLabel 2650 1250 1    50   Input ~ 0
 3v3
 Text GLabel 2450 1250 1    50   Input ~ 0
 5V
-Text GLabel 1750 2050 0    50   Input ~ 0
+Text GLabel 1750 2150 0    50   Input ~ 0
 Hall_Effect_Sensor
 Text GLabel 3500 5450 0    50   Input ~ 0
 Cap_1
@@ -317,139 +317,18 @@ GND
 Text GLabel 9250 1950 0    50   Input ~ 0
 Hall_Effect_Sensor
 $Comp
-L dk_Transistors-Bipolar-BJT-Single:2N2222A Q1
-U 1 1 5FC250B2
-P 6400 1450
-F 0 "Q1" H 6588 1503 60  0000 L CNN
-F 1 "2N2222A" H 6588 1397 60  0000 L CNN
-F 2 "footprints:SSTA06HZGT116" H 6600 1650 60  0001 L CNN
-F 3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221A.PDF" H 6600 1750 60  0001 L CNN
-F 4 "2N2222ACS-ND" H 6600 1850 60  0001 L CNN "Digi-Key_PN"
-F 5 "2N2222A" H 6600 1950 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 6600 2050 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 6600 2150 60  0001 L CNN "Family"
-F 8 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221A.PDF" H 6600 2250 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/central-semiconductor-corp/2N2222A/2N2222ACS-ND/4806845" H 6600 2350 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 40V 0.8A TO-18" H 6600 2450 60  0001 L CNN "Description"
-F 11 "Central Semiconductor Corp" H 6600 2550 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 6600 2650 60  0001 L CNN "Status"
-	1    6400 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 5FC269BF
-P 6650 1100
-F 0 "R4" V 6443 1100 50  0000 C CNN
-F 1 "8" V 6534 1100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6580 1100 50  0001 C CNN
-F 3 "~" H 6650 1100 50  0001 C CNN
-	1    6650 1100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 5FC2856A
-P 6200 1150
-F 0 "R3" H 6130 1104 50  0000 R CNN
-F 1 "15k" H 6130 1195 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6130 1150 50  0001 C CNN
-F 3 "~" H 6200 1150 50  0001 C CNN
-	1    6200 1150
-	-1   0    0    1   
-$EndComp
-$Comp
-L oshpark-2layer-rescue:Conn_01x02_Female-Connector J6
+L Connector:Conn_01x02_Female J6
 U 1 1 5FC2A999
-P 7200 850
-F 0 "J6" H 7228 826 50  0000 L CNN
-F 1 "Conn_01x02_Female-Connector" H 7228 735 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7200 850 50  0001 C CNN
-F 3 "" H 7200 850 50  0001 C CNN
-	1    7200 850 
+P 6700 1500
+F 0 "J6" H 6728 1476 50  0000 L CNN
+F 1 "Conn_01x02_Female-Connector" H 6728 1385 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6700 1500 50  0001 C CNN
+F 3 "" H 6700 1500 50  0001 C CNN
+	1    6700 1500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6500 1100 6500 1250
-Wire Wire Line
-	6800 1100 7000 1100
-Wire Wire Line
-	7000 1100 7000 950 
-Wire Wire Line
-	7000 850  6200 850 
-Wire Wire Line
-	6200 850  6200 1000
-Wire Wire Line
-	6200 1300 6200 1450
-$Comp
-L Device:C C1
-U 1 1 5FC2DDBE
-P 5800 1600
-F 0 "C1" H 5915 1646 50  0000 L CNN
-F 1 "100nF" H 5915 1555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5838 1450 50  0001 C CNN
-F 3 "~" H 5800 1600 50  0001 C CNN
-	1    5800 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP C2
-U 1 1 5FC2F329
-P 6000 1450
-F 0 "C2" V 6255 1450 50  0000 C CNN
-F 1 "10uF" V 6164 1450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6038 1300 50  0001 C CNN
-F 3 "~" H 6000 1450 50  0001 C CNN
-	1    6000 1450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6200 1450 6150 1450
-Connection ~ 6200 1450
-Wire Wire Line
-	5850 1450 5800 1450
-Wire Wire Line
-	6500 1750 6500 1650
-$Comp
-L Device:R R2
-U 1 1 5FC313ED
-P 5450 1600
-F 0 "R2" H 5380 1554 50  0000 R CNN
-F 1 "150" H 5380 1645 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5380 1600 50  0001 C CNN
-F 3 "~" H 5450 1600 50  0001 C CNN
-	1    5450 1600
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5800 1750 5450 1750
-Wire Wire Line
-	5800 1450 5450 1450
-Connection ~ 5800 1450
-$Comp
-L Device:R R1
-U 1 1 5FC32D30
-P 5200 1450
-F 0 "R1" V 5407 1450 50  0000 C CNN
-F 1 "270" V 5316 1450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5130 1450 50  0001 C CNN
-F 3 "~" H 5200 1450 50  0001 C CNN
-	1    5200 1450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5450 1450 5350 1450
-Connection ~ 5450 1450
 Text GLabel 3350 3350 2    50   Input ~ 0
 AUDIO
-Text GLabel 5050 1450 0    50   Input ~ 0
-AUDIO
-Text GLabel 6200 850  1    50   Input ~ 0
-5V
-Text GLabel 5450 1750 3    50   Input ~ 0
-GND
-Text GLabel 4700 1900 0    50   Input ~ 0
-Bat_GPIO
 Text GLabel 3350 2350 2    50   Input ~ 0
 Bat_GPIO
 Text GLabel 8400 2950 0    50   Input ~ 0
@@ -516,10 +395,147 @@ Text GLabel 9250 1450 0    50   Input ~ 0
 Hall_Effect_Sensor2
 Text GLabel 1750 3150 0    50   Input ~ 0
 Hall_Effect_Sensor2
-Text GLabel 6500 1750 3    50   Input ~ 0
-GND
 Text GLabel 3500 6050 0    50   Input ~ 0
 Cap_7
 Text GLabel 4700 6050 2    50   Input ~ 0
 Cap_7
+$Comp
+L Amplifier_Audio:PAM8302AAS U3
+U 1 1 60ABCA11
+P 5850 1700
+F 0 "U3" H 6100 2600 50  0000 C CNN
+F 1 "PAM8302AAS" H 6100 2500 50  0000 C CNN
+F 2 "Main Board:SOIC-8" H 5850 1700 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/PAM8302A.pdf" H 5850 1700 50  0001 C CNN
+	1    5850 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT RV1
+U 1 1 60ABDB90
+P 4700 1200
+F 0 "RV1" H 4631 1246 50  0000 R CNN
+F 1 "10K" H 4631 1155 50  0000 R CNN
+F 2 "Potentiometer_SMD:Potentiometer_Bourns_3214W_Vertical" H 4700 1200 50  0001 C CNN
+F 3 "~" H 4700 1200 50  0001 C CNN
+	1    4700 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 60ABF3BD
+P 5000 1200
+F 0 "C1" V 4748 1200 50  0000 C CNN
+F 1 "1uF" V 4839 1200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5038 1050 50  0001 C CNN
+F 3 "~" H 5000 1200 50  0001 C CNN
+	1    5000 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 60ABFD3B
+P 5300 1200
+F 0 "R1" V 5093 1200 50  0000 C CNN
+F 1 "100" V 5184 1200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5230 1200 50  0001 C CNN
+F 3 "~" H 5300 1200 50  0001 C CNN
+	1    5300 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 60AC08CB
+P 5300 1700
+F 0 "R2" V 5093 1700 50  0000 C CNN
+F 1 "100" V 5184 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5230 1700 50  0001 C CNN
+F 3 "~" H 5300 1700 50  0001 C CNN
+	1    5300 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 60AC1063
+P 5000 1700
+F 0 "C2" V 4748 1700 50  0000 C CNN
+F 1 "1uF" V 4839 1700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5038 1550 50  0001 C CNN
+F 3 "~" H 5000 1700 50  0001 C CNN
+	1    5000 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 1200 5450 1500
+Text GLabel 4850 2000 3    50   Input ~ 0
+GND
+Wire Wire Line
+	4700 1350 4850 1350
+Wire Wire Line
+	4850 1350 4850 1700
+Wire Wire Line
+	4850 1700 4850 2000
+Connection ~ 4850 1700
+Text GLabel 4250 900  0    50   Input ~ 0
+AUDIO
+Text GLabel 5150 2050 0    50   Input ~ 0
+5V
+Text GLabel 5250 2350 3    50   Input ~ 0
+GND
+Text GLabel 5850 2100 3    50   Input ~ 0
+GND
+$Comp
+L Device:C C3
+U 1 1 60AC6DC2
+P 5250 2200
+F 0 "C3" H 5135 2154 50  0000 R CNN
+F 1 "10uF" H 5135 2245 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5288 2050 50  0001 C CNN
+F 3 "~" H 5250 2200 50  0001 C CNN
+	1    5250 2200
+	-1   0    0    1   
+$EndComp
+Connection ~ 5250 2050
+Wire Wire Line
+	5250 2050 5150 2050
+Wire Wire Line
+	5850 1350 5850 1300
+Wire Wire Line
+	5850 1150 6350 1150
+Wire Wire Line
+	6350 1150 6350 2450
+Wire Wire Line
+	6350 2450 5600 2450
+Wire Wire Line
+	5600 2450 5600 2050
+Connection ~ 5850 1300
+Wire Wire Line
+	5850 1300 5850 1150
+Wire Wire Line
+	5250 2050 5450 2050
+Wire Wire Line
+	5450 1900 5450 2050
+Connection ~ 5450 2050
+Wire Wire Line
+	5450 2050 5600 2050
+Wire Wire Line
+	6250 1500 6500 1500
+Wire Wire Line
+	6250 1700 6500 1700
+Wire Wire Line
+	6500 1700 6500 1600
+Wire Wire Line
+	4250 900  4700 900 
+Wire Wire Line
+	4700 900  4700 1050
+Wire Wire Line
+	4150 5750 4150 5800
+Wire Wire Line
+	4000 5800 4050 5800
+Wire Wire Line
+	4050 5800 4050 5750
+Wire Wire Line
+	6750 1400 6750 1350
+Entry Wire Line
+	9350 6400 9450 6500
 $EndSCHEMATC

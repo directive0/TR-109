@@ -1,5 +1,4 @@
 (sym_lib_table
-  (lib (name oshpark-2layer-rescue)(type Legacy)(uri ${KIPRJMOD}/oshpark-2layer-rescue.lib)(options "")(descr ""))
   (lib (name MPR121QR2)(type Legacy)(uri /Users/d0/Dropbox/MPR121QR2/MPR121QR2.lib)(options "")(descr ""))
   (lib (name tr109-mainboard-rescue)(type Legacy)(uri ${KIPRJMOD}/tr109-mainboard-rescue.lib)(options "")(descr ""))
 )
