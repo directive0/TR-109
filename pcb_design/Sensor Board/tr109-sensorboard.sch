@@ -503,34 +503,6 @@ Text GLabel 6350 1200 1    50   Input ~ 0
 3.3V
 Text GLabel 5850 1500 0    50   Input ~ 0
 3.3V
-Text GLabel 3700 1900 0    50   Input ~ 0
-SDA
-Text GLabel 3700 1600 0    50   Input ~ 0
-SCK
-Text GLabel 4100 2300 3    50   Input ~ 0
-GND
-Text GLabel 4200 1200 1    50   Input ~ 0
-3.3V
-$Comp
-L dk_Magnetic-Sensors-Linear-Compass-ICs:LIS3MDLTR U4
-U 1 1 5F5C68D1
-P 4200 1700
-F 0 "U4" H 3550 2400 60  0000 C CNN
-F 1 "LIS3MDLTR" H 3700 2300 60  0000 C CNN
-F 2 "digikey-footprints:VFLGA-12_2x2mm" H 4400 1900 60  0001 L CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/54/2a/85/76/e3/97/42/18/DM00075867.pdf/files/DM00075867.pdf/jcr:content/translations/en.DM00075867.pdf" H 4400 2000 60  0001 L CNN
-F 4 "497-13892-1-ND" H 4400 2100 60  0001 L CNN "Digi-Key_PN"
-F 5 "LIS3MDLTR" H 4400 2200 60  0001 L CNN "MPN"
-F 6 "Sensors, Transducers" H 4400 2300 60  0001 L CNN "Category"
-F 7 "Magnetic Sensors - Linear, Compass (ICs)" H 4400 2400 60  0001 L CNN "Family"
-F 8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/54/2a/85/76/e3/97/42/18/DM00075867.pdf/files/DM00075867.pdf/jcr:content/translations/en.DM00075867.pdf" H 4400 2500 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/stmicroelectronics/LIS3MDLTR/497-13892-1-ND/4309737" H 4400 2600 60  0001 L CNN "DK_Detail_Page"
-F 10 "SENSOR MR I2C/SPI 12LGA" H 4400 2700 60  0001 L CNN "Description"
-F 11 "STMicroelectronics" H 4400 2800 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 4400 2900 60  0001 L CNN "Status"
-	1    4200 1700
-	1    0    0    -1  
-$EndComp
 Text GLabel 4550 6400 2    50   Input ~ 0
 GND
 Wire Wire Line
@@ -715,7 +687,7 @@ U 1 1 5FB49A1E
 P 5700 5600
 F 0 "J2" H 5728 5626 50  0000 L CNN
 F 1 "Conn_01x01_Female" H 5728 5535 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 5700 5600 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5700 5600 50  0001 C CNN
 F 3 "~" H 5700 5600 50  0001 C CNN
 	1    5700 5600
 	1    0    0    -1  
@@ -726,7 +698,7 @@ U 1 1 5FB49FE6
 P 5700 5250
 F 0 "J1" H 5728 5276 50  0000 L CNN
 F 1 "Conn_01x01_Female" H 5728 5185 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 5700 5250 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5700 5250 50  0001 C CNN
 F 3 "~" H 5700 5250 50  0001 C CNN
 	1    5700 5250
 	1    0    0    -1  
@@ -899,5 +871,24 @@ GND
 Text GLabel 1150 3500 0    50   Input ~ 0
 Shift_Serial
 Text GLabel 6750 1600 2    50   Input ~ 0
+GND
+$Comp
+L Connector:Conn_01x04_Female J3
+U 1 1 60B3C235
+P 3900 1550
+F 0 "J3" H 3928 1526 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 3928 1435 50  0000 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical" H 3900 1550 50  0001 C CNN
+F 3 "~" H 3900 1550 50  0001 C CNN
+	1    3900 1550
+	1    0    0    -1  
+$EndComp
+Text GLabel 3700 1450 0    50   Input ~ 0
+SDA
+Text GLabel 3700 1750 0    50   Input ~ 0
+SCK
+Text GLabel 3700 1550 0    50   Input ~ 0
+3.3V
+Text GLabel 3700 1650 0    50   Input ~ 0
 GND
 $EndSCHEMATC
