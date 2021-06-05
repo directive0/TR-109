@@ -5,7 +5,7 @@ This repository hosts a set of design documents for the TR-109 Mark I Picorder. 
 
 - The enclosure_design folder contains the .blend file used to produce the STLs for the case, diffusers and spacers. It also contains the main STLs ready to be printed, and an svg file to produce your own stickers.
 
-- The pcb_design folder contains KiCad 5.1.7 files of both the mainboard and the sensorboard pcbs. These files can be used to produce and test PCBs.
+- The pcb_design folder contains KiCad 5.1.10 files of both the main board, sensor board and indicator board pcbs. These files can be used to produce and test PCBs.
 
 
 ## What is not yet included:
