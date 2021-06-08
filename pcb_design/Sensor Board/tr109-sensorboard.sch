@@ -294,9 +294,9 @@ Text GLabel 1850 2800 1    50   Input ~ 0
 5V
 Text GLabel 1750 2800 1    50   Input ~ 0
 5V
-Text GLabel 1150 4000 0    50   Input ~ 0
+Text GLabel 1150 4700 0    50   Input ~ 0
 Shift_Clock
-Text GLabel 2750 4000 2    50   Input ~ 0
+Text GLabel 1150 4100 0    50   Input ~ 0
 Shift_Latch
 Wire Wire Line
 	6850 4450 7250 4450
@@ -868,7 +868,7 @@ Text GLabel 9100 5050 0    50   Input ~ 0
 5V
 Text GLabel 9100 5350 0    50   Input ~ 0
 GND
-Text GLabel 1150 3500 0    50   Input ~ 0
+Text GLabel 1150 3900 0    50   Input ~ 0
 Shift_Serial
 Text GLabel 6750 1600 2    50   Input ~ 0
 GND

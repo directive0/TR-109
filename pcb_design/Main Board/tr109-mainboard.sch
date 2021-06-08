@@ -237,7 +237,7 @@ Text GLabel 2650 1250 1    50   Input ~ 0
 3v3
 Text GLabel 2450 1250 1    50   Input ~ 0
 5V
-Text GLabel 1750 2150 0    50   Input ~ 0
+Text GLabel 3350 3250 2    50   Input ~ 0
 Hall_Effect_Sensor
 Text GLabel 3500 5450 0    50   Input ~ 0
 Cap_1
@@ -257,23 +257,23 @@ Text GLabel 8400 2750 0    50   Input ~ 0
 LED6
 Text GLabel 8400 2650 0    50   Input ~ 0
 LED5
-Text GLabel 9200 4000 0    50   Input ~ 0
-Cap_6
 Text GLabel 9200 3900 0    50   Input ~ 0
-Cap_5
+Cap_6
 Text GLabel 9200 3800 0    50   Input ~ 0
-Cap_4
+Cap_5
 Text GLabel 9200 3700 0    50   Input ~ 0
-Cap_3
+Cap_4
 Text GLabel 9200 3600 0    50   Input ~ 0
-Cap_2
+Cap_3
 Text GLabel 9200 3500 0    50   Input ~ 0
-Cap_1
+Cap_2
 Text GLabel 9200 3400 0    50   Input ~ 0
-Bat_GPIO
-Text GLabel 9200 3200 0    50   Input ~ 0
-GND
+Cap_1
 Text GLabel 9200 3300 0    50   Input ~ 0
+Bat_GPIO
+Text GLabel 9200 3100 0    50   Input ~ 0
+GND
+Text GLabel 9200 3200 0    50   Input ~ 0
 5V
 $Comp
 L Connector:Conn_01x05_Female J3
@@ -289,12 +289,12 @@ $EndComp
 Text GLabel 8400 2550 0    50   Input ~ 0
 GND
 $Comp
-L Connector:Conn_01x09_Female J4
+L Connector:Conn_01x11_Female J4
 U 1 1 5F576896
 P 9400 3600
 F 0 "J4" H 9428 3626 50  0000 L CNN
-F 1 "Conn_01x09_Female" H 9428 3535 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 9400 3600 50  0001 C CNN
+F 1 "Conn_01x11_Female" H 9428 3535 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical" H 9400 3600 50  0001 C CNN
 F 3 "~" H 9400 3600 50  0001 C CNN
 	1    9400 3600
 	1    0    0    -1  
@@ -393,12 +393,12 @@ Text GLabel 9250 1250 0    50   Input ~ 0
 GND
 Text GLabel 9250 1450 0    50   Input ~ 0
 Hall_Effect_Sensor2
-Text GLabel 1750 3150 0    50   Input ~ 0
+Text GLabel 3350 2250 2    50   Input ~ 0
 Hall_Effect_Sensor2
 Text GLabel 3500 6050 0    50   Input ~ 0
 Cap_7
 Text GLabel 4700 6050 2    50   Input ~ 0
-Cap_7
+Cap_8
 $Comp
 L Amplifier_Audio:PAM8302AAS U3
 U 1 1 60ABCA11
@@ -536,6 +536,14 @@ Wire Wire Line
 	4050 5800 4050 5750
 Wire Wire Line
 	6750 1400 6750 1350
-Entry Wire Line
-	9350 6400 9450 6500
+Text GLabel 1750 2350 0    50   Input ~ 0
+Shift_Serial_Sensor_Board
+Text GLabel 1750 2550 0    50   Input ~ 0
+Shift_Latch_Sensor_Board
+Text GLabel 1750 3150 0    50   Input ~ 0
+Shift_Clock_Sensor_Board
+Text GLabel 9200 4000 0    50   Input ~ 0
+Cap_7
+Text GLabel 9200 4100 0    50   Input ~ 0
+Cap_8
 $EndSCHEMATC
