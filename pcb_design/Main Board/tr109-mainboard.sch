@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Picorder 2 - TR-109 - Mainboard"
-Date "2020-12-28"
-Rev "2"
+Date "2021-06-25"
+Rev "3"
 Comp ""
 Comment1 ""
 Comment2 ""

@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "TR109 - BMG Light board"
+Date "2021-06-25"
+Rev "1"
+Comp "Skurfsoft"
 Comment1 ""
 Comment2 ""
 Comment3 ""
