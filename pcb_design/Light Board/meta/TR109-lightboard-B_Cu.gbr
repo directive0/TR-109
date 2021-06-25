@@ -1,0 +1,39 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,(5.1.10-1-10_14)*%
+%TF.CreationDate,2021-06-08T22:52:33-04:00*%
+%TF.ProjectId,TR109-lightboard,54523130-392d-46c6-9967-6874626f6172,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Copper,L2,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (5.1.10-1-10_14)) date 2021-06-08 22:52:33*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,ComponentPad*%
+%ADD10O,1.350000X1.350000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD11R,1.350000X1.350000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.P,J1,5*%
+%TO.N,L1*%
+X153396704Y-95313500D03*
+%TO.P,J1,4*%
+%TO.N,L2*%
+X151396704Y-95313500D03*
+%TO.P,J1,3*%
+%TO.N,L3*%
+X149396704Y-95313500D03*
+%TO.P,J1,2*%
+%TO.N,LON*%
+X147396704Y-95313500D03*
+D11*
+%TO.P,J1,1*%
+%TO.N,GND*%
+X145396704Y-95313500D03*
+%TD*%
+M02*

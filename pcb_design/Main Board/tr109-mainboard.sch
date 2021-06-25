@@ -280,7 +280,7 @@ L Connector:Conn_01x05_Female J3
 U 1 1 5F574CF3
 P 8600 2750
 F 0 "J3" H 8628 2726 50  0000 L CNN
-F 1 "Conn_01x04_Female" H 8628 2635 50  0000 L CNN
+F 1 "Light_Board" H 8628 2635 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 8600 2750 50  0001 C CNN
 F 3 "~" H 8600 2750 50  0001 C CNN
 	1    8600 2750
@@ -293,7 +293,7 @@ L Connector:Conn_01x11_Female J4
 U 1 1 5F576896
 P 9400 3600
 F 0 "J4" H 9428 3626 50  0000 L CNN
-F 1 "Conn_01x11_Female" H 9428 3535 50  0000 L CNN
+F 1 "Cap_and_Bat" H 9428 3535 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical" H 9400 3600 50  0001 C CNN
 F 3 "~" H 9400 3600 50  0001 C CNN
 	1    9400 3600
@@ -304,7 +304,7 @@ L Connector:Conn_01x03_Female J5
 U 1 1 5F5ADDAE
 P 9450 1850
 F 0 "J5" H 9478 1876 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 9478 1785 50  0000 L CNN
+F 1 "Hall_1" H 9478 1785 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9450 1850 50  0001 C CNN
 F 3 "~" H 9450 1850 50  0001 C CNN
 	1    9450 1850
@@ -381,7 +381,7 @@ L Connector:Conn_01x03_Female J7
 U 1 1 5FE99359
 P 9450 1350
 F 0 "J7" H 9478 1376 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 9478 1285 50  0000 L CNN
+F 1 "Hall_2" H 9478 1285 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9450 1350 50  0001 C CNN
 F 3 "~" H 9450 1350 50  0001 C CNN
 	1    9450 1350
@@ -546,4 +546,19 @@ Text GLabel 9200 4000 0    50   Input ~ 0
 Cap_7
 Text GLabel 9200 4100 0    50   Input ~ 0
 Cap_8
+$Comp
+L Connector:Conn_01x02_Female J8
+U 1 1 60C056D7
+P 9850 5000
+F 0 "J8" H 9878 4976 50  0000 L CNN
+F 1 "Led_On" H 9878 4885 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9850 5000 50  0001 C CNN
+F 3 "~" H 9850 5000 50  0001 C CNN
+	1    9850 5000
+	1    0    0    -1  
+$EndComp
+Text GLabel 9650 5100 0    50   Input ~ 0
+LED_ON
+Text GLabel 9650 5000 0    50   Input ~ 0
+GND
 $EndSCHEMATC
