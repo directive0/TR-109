@@ -561,4 +561,10 @@ Text GLabel 9650 5100 0    50   Input ~ 0
 LED_ON
 Text GLabel 9650 5000 0    50   Input ~ 0
 GND
+Text GLabel 1750 2050 0    50   Input ~ 0
+BUT1
+Text GLabel 1750 3250 0    50   Input ~ 0
+BUT2
+Text GLabel 1750 2750 0    50   Input ~ 0
+BUT3
 $EndSCHEMATC
