@@ -567,4 +567,32 @@ Text GLabel 1750 3250 0    50   Input ~ 0
 BUT2
 Text GLabel 1750 2750 0    50   Input ~ 0
 BUT3
+$Comp
+L Connector:Conn_01x02_Female J9
+U 1 1 610ACCCB
+P 9850 5600
+F 0 "J9" H 9878 5576 50  0000 L CNN
+F 1 "i2c_bus" H 9878 5485 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9850 5600 50  0001 C CNN
+F 3 "~" H 9850 5600 50  0001 C CNN
+	1    9850 5600
+	1    0    0    -1  
+$EndComp
+Text GLabel 9650 5700 0    50   Input ~ 0
+SDA
+Text GLabel 9650 5600 0    50   Input ~ 0
+SCL
+$Comp
+L Connector:Conn_01x01_Female J10
+U 1 1 610B2E38
+P 9850 6000
+F 0 "J10" H 9878 6026 50  0000 L CNN
+F 1 "raw_audio_out" H 9878 5935 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9850 6000 50  0001 C CNN
+F 3 "~" H 9850 6000 50  0001 C CNN
+	1    9850 6000
+	1    0    0    -1  
+$EndComp
+Text GLabel 9650 6000 0    50   Input ~ 0
+AUDIO
 $EndSCHEMATC
