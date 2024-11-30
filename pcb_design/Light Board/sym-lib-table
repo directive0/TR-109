@@ -1,2 +1,4 @@
 (sym_lib_table
+  (version 7)
+  (lib (name "TR109-lightboard-rescue")(type "KiCad")(uri "${KIPRJMOD}/TR109-lightboard-rescue.kicad_sym")(options "")(descr ""))
 )
