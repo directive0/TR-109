@@ -1,0 +1,11 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+116.03466,-90.20086,0.0,top,D1,,,LED_D3.0mm,Green_LED,tht
+116.03466,-98.294993,0.0,top,D2,,,LED_D3.0mm,Green_LED,tht
+116.03466,-106.389126,0.0,top,D3,,,LED_D3.0mm,Green_LED,tht
+116.03466,-114.48326,0.0,top,D4,,,LED_D3.0mm,Green_LED,tht
+119.40176,-78.57686,90.0,top,J1,,,PinHeader_2x20_P2.54mm_Horizontal,Raspberry Pi Zero W,tht
+164.8406,-99.9394,0.0,top,J6,,,PinHeader_1x03_P2.54mm_Vertical,Audio_Out,tht
+164.8406,-121.1194,0.0,top,J9,,,PinHeader_1x02_P2.54mm_Vertical,i2c Connect,tht
+116.8654,-119.047,0.0,top,R3,,,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,100,smt
+150.5966,-119.9134,-90.0,top,U1,,,SOIC-14_3.9x8.7mm_P1.27mm,CAP1208,smt
+150.5966,-89.8094,0.0,top,U2,,,SOIC-16_3.9x9.9mm_P1.27mm,74HC595,smt

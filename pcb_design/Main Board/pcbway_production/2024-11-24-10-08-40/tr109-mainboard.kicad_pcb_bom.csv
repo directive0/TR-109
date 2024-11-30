@@ -1,0 +1,6 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type
+"D1, D2, D3, D4",4,Green_LED,LED_D3.0mm,,,,tht
+J1,1,Raspberry Pi Zero W,PinHeader_2x20_P2.54mm_Horizontal,,,,tht
+R3,1,100,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,,,smt
+U1,1,CAP1208,SOIC-14_3.9x8.7mm_P1.27mm,,,,smt
+U2,1,74HC595,SOIC-16_3.9x9.9mm_P1.27mm,,,,smt

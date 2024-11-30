@@ -1,4 +1,5 @@
 (fp_lib_table
-  (lib (name "Main Board")(type KiCad)(uri "C:/Users/d0/Documents/TR-109/pcb_design/Main Board")(options "")(descr ""))
-  (lib (name Logos)(type KiCad)(uri "/Volumes/Galileo/TR-109/pcb_design/Sensor Board/Logos.pretty")(options "")(descr ""))
+  (version 7)
+  (lib (name "Main Board")(type "KiCad")(uri "C:/Users/d0/Documents/TR-109/pcb_design/Main Board")(options "")(descr ""))
+  (lib (name "Logos")(type "KiCad")(uri "/Users/admin/Projects/TR-109/pcb_design/Sensor Board/Logos.pretty")(options "")(descr ""))
 )
