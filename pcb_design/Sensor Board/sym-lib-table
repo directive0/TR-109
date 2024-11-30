@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name tr109-sensorboard-rescue)(type Legacy)(uri ${KIPRJMOD}/tr109-sensorboard-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "tr109-sensorboard-rescue")(type "KiCad")(uri "${KIPRJMOD}/tr109-sensorboard-rescue.kicad_sym")(options "")(descr ""))
 )
