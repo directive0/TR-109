@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Picorder 2 - TR-109 - Mainboard")
-		(date "2024-11-19")
+		(date "2025-01-07")
 		(rev "4")
 	)
 	(lib_symbols
@@ -7354,7 +7354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "8 Channel Capacitive Touch IC"
 			(at 104.14 147.32 0)
 			(effects
 				(font
