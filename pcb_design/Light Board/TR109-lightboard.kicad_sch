@@ -731,7 +731,7 @@
 	)
 	(global_label "L3"
 		(shape input)
-		(at 77.47 78.74 0)
+		(at 77.47 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -740,7 +740,7 @@
 		)
 		(uuid "733535ba-ebc5-4c67-8032-c9726a98da85")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.47 78.74 0)
+			(at 77.47 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -911,7 +911,7 @@
 	)
 	(global_label "L1"
 		(shape input)
-		(at 77.47 73.66 0)
+		(at 77.47 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -920,7 +920,7 @@
 		)
 		(uuid "d86c5aeb-2209-4990-aedd-59a532835458")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.47 73.66 0)
+			(at 77.47 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
